@@ -1,0 +1,25 @@
+img{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 250px;
+    transition: 1s;
+}
+
+body{
+    background-color: rgb(43, 198, 226);
+}
+
+img:hover{
+    filter: blur(5px);
+    filter: brightness(10);
+    filter: hue-rotate(180deg); 
+    filter: grayscale(45); 
+    filter: contrast(45);
+    filter: opacity(1%);
+    filter: grayscale(150%);
+    transition: 1s;
+}
+
+.div{
+    display: flex;
+}
